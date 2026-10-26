@@ -215,7 +215,7 @@ public class TaskService {
 
             data.setProperty(
                     prefix + "createdAt",
-                    task.getCompleteAt().toString()
+                    task.getCompletedAt().toString()
             );
 
             data.setProperty(
@@ -225,9 +225,9 @@ public class TaskService {
 
             data.setProperty(
                     prefix + "completedAt",
-                    task.getCompleteAt()==null
+                    task.getCompletedAt()==null
                             ? ""
-                            : task.getCompleteAt().toString()
+                            : task.getCompletedAt().toString()
             );
         }
 

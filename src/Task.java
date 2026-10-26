@@ -68,11 +68,11 @@ public class Task {
         return completed;
     }
 
-    public LocalDateTime getCreateAt() {
+    public LocalDateTime getCreatedAt() {
         return createAt;
     }
 
-    public LocalDateTime getCompleteAt() {
+    public LocalDateTime getCompletedAt() {
         return completeAt;
     }
 
@@ -93,4 +93,5 @@ public class Task {
     public String toString (){
         return (completed ? "[o] " : "[x] " ) + title;
     }
+
 }
