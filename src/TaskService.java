@@ -215,7 +215,7 @@ public class TaskService {
 
             data.setProperty(
                     prefix + "createdAt",
-                    task.getCompletedAt().toString()
+                    task.getCreatedAt().toString()
             );
 
             data.setProperty(

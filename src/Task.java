@@ -45,7 +45,7 @@ public class Task {
         }
 
         this.title = title.strip();
-//        setComment(comment);
+        setComment(comment);
 
         this.createAt = createAt;
         this.completed = completed;
